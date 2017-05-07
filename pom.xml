@@ -103,17 +103,11 @@
   			</resource>
   			<resource><!-- static resources of css -->
   				<directory>src/main/resources/css</directory>
-  				<excludes>
-  					<exclude>**/*.jsp</exclude>
-  				</excludes>
   				<targetPath>${basedir}/../../server/src/main/resources/css/${module.name}</targetPath>
   				<filtering>true</filtering>
   			</resource>
   			<resource><!-- static resources of image -->
   				<directory>src/main/resources/img</directory>
-  				<excludes>
-  					<exclude>**/*.jsp</exclude>
-  				</excludes>
   				<targetPath>${basedir}/../../server/src/main/resources/img/${module.name}</targetPath>
   				<filtering>true</filtering>
   			</resource>
